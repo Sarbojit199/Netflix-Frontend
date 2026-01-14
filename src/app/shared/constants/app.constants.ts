@@ -8,7 +8,18 @@ export const VIDEO_CATEGORIES = [
     'Horror',
     'Romance',
     'Adventure',
-    'Fantasy'
+    'Fantasy',
+    'Animation',
+    'Crime',
+    'Mystery',
+    'Biography',
+    'History',
+    'War',
+    'Western',
+    'Musical',
+    'Family',
+    'Sport',
+    'Music'
 
 ];
 export const RATINGS = [
@@ -19,15 +30,15 @@ export const DIALOG_CONFIG ={
     VIDEO_PLAYER:{
         width: '100vw',
         height: '100vh',
-        maxwidth: '100vw',
-        maxheight: '100vh',
+        maxWidth: '100vw',
+        maxHeight: '100vh',
         panelClass: 'video-player-dialog',
         hasBackdrop: true,
         disableClose: false,
     },
     CHANGE_PASSWORD: {
         width: '600px',
-        maxwidth: '90vw', 
+        maxWidth: '90vw', 
         panelClass: 'user-dialog',
          hasBackdrop: true,
         disableClose: false
@@ -42,15 +53,15 @@ export const DIALOG_CONFIG ={
     },
     MANAGE_USER: {
         width: '600px',
-        maxwidth: '90vw',
+        maxWidth: '90vw',
         panelClass:'user-dialog',
         hasBackdrop: true,
         disableClose: false
     },
     VIDEO_FROM: {
         width: '95vw',
-         maxwidth: '1400px',
-         heigth: 'auto',
+         maxWidth: '1400px',
+         height: 'auto',
          maxHeight: '95vh',
         panelClass:'video-form-dialog',
         hasBackdrop: true,

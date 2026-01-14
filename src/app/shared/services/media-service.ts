@@ -92,7 +92,7 @@ getMediaUrl(
   }
 
   const authenticatedUrl =
-    `${this.apiUrl}/${type}/${uuid}?=token=${encodeURIComponent(token)}`;
+    `${this.apiUrl}/${type}/${uuid}?token=${encodeURIComponent(token)}`;
 
   if (options?.useCache && type === 'image') {
     this.imageCache.set(uuid, authenticatedUrl);
